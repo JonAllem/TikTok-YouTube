@@ -1,6 +1,9 @@
 import time
 
 
+verifyFp = "verify_km3ym1ss_fHkhOpaC_5AaA_4OHU_8Fdo_CrQykN0yqAmt"
+
+
 def simple_dict(tiktok_dict):
     to_return = dict()
     to_return['user_name'] = tiktok_dict['author']['uniqueId']

@@ -1,0 +1,5 @@
+TikTokApi~=3.9.2
+playwright
+pandas~=1.2.3
+tqdm~=4.59.0
+youtube-data-api

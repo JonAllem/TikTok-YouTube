@@ -5,11 +5,10 @@ import pandas as pd
 from TikTokApi import TikTokApi
 from tqdm import tqdm
 
-from utils import simple_dict
+from utils import simple_dict, verifyFp
 
 
 def getTiktok():
-    verifyFp = "verify_km9xqnrm_uZ7r4qP5_Ouw3_4k0X_92a4_pqKXnkOWe3uP"
     hashtags = ['juul', 'swishersweets', 'backwood', 'puffplus']
     did = ''.join(random.choice(string.digits) for num in range(19))
 

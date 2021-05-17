@@ -5,9 +5,8 @@ import string
 import pandas as pd
 from TikTokApi import TikTokApi
 
-from utils import simple_dict
+from utils import simple_dict, verifyFp
 
-verifyFp = "verify_km3ym1ss_fHkhOpaC_5AaA_4OHU_8Fdo_CrQykN0yqAmt"
 username = 'juullllss'
 
 did = ''.join(random.choice(string.digits) for num in range(19))
